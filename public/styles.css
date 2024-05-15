@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-dark{
+    background-color: #333333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #7af6ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #adffff;
+  }
+  
+  .task-item {
+    margin-bottom: 5px;
+  }
+  
+  .task-item button {
+    margin-left: 10px;
+  }
+
+  .neon-green {
+    background-color: #49f849;
+    border-color: #00ff00;
+  }
+  
+  .text-neon-blue{
+    color: #7af6ff;
+  }
+  .neon-green:hover {
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 1 1 5px #58ff58;
+    }
+    100% {
+      box-shadow: 1 1 20px #00ff00;
+    }
+  }
+  
+  .list-group-item {
+    background-color: rgb(255, 190, 255);
+  }
+
+  table:hover {
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #ffff00;
+    }
+    100% {
+      box-shadow: 0 0 20px #ffff00;
+    }
+  }
+  
+/* Add alternating row colors */
+table tr:nth-child(odd) {
+  background-color: rgba(255, 249, 212, 0.932); /* Yellow */
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(203, 242, 255); /* Light blue */
+}
+
+  table {
+    background-color: rgb(255, 255, 228);
+    border-radius: 10px;
+  }
+  
+  table:hover {
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #fdfffa;
+    }
+    100% {
+      box-shadow: 0 0 20px #ecffb6;
+    }
+  }
+  
+  td {
+    border-radius: 10px; /* Adjust this value as needed */
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.note-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.note-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.note-card p {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.note-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-card button:hover {
+    background-color: #45a049;
+}
+
+  
+  
